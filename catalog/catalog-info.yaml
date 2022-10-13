@@ -11,6 +11,7 @@ metadata:
     - tanzu
   annotations:
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=tanzu-java-web-app'
+    'backstage.io/kubernetes-id': 'dice-roller'
 spec:
   type: service
   lifecycle: experimental
